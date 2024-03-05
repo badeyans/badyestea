@@ -10,7 +10,7 @@ class BadyesTea {
   
     getTeaData(key) {
       const value = this.teaData[key];
-      console.log(`Retrieved Badyes Tea data for key '${key}':`, value);
+      console.log(`Retrieved Badyes Tea data key '${key}':`, value);
       return value;
     }
   
